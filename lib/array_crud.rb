@@ -7,7 +7,6 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["Andre","Paul","Craig"]
   array << element
 end
 
@@ -16,17 +15,14 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = [5,4,3,2,1]
-  array.pop(1)
+  array.pop(element)
 end
 
 def remove_element_from_start_of_array(array)
-  array = [5,6,7,8,9]
-  array.shift(5)
+  array.shift(element)
 end
 
 def retrieve_element_from_index(array, index_number)
-  array = [1,2,3,4,5,6,7]
   element = array[0]
 end
 
